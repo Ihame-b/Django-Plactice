@@ -37,9 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     # adding my app
     'ToDoList1',
+
+    #third party apps
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

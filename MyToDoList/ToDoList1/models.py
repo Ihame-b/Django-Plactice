@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class ToDo(models.Model):
-    Title = models.CharField(max_length=100, blank)
+    Title = models.CharField(max_length=100, blank=True)
     Description = models.TextField(blank=True)
     Date = models.DateField(blank=False)
     Completed = models.BooleanField(default=False)
