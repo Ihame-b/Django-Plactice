@@ -1,0 +1,19 @@
+Setting up djando application.
+
+pip install djangorestframework
+python -m django startproject ProjectName
+cd to project name
+
+serialization responsible for convesting object into datatypes.
+
+for running cd to app
+
+python manage.py makemigrations
+python manage.py migrate
+
+Then run
+python manage.py runserver
+
+craeting admin
+
+python manage.py createsuperuser

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # adding my app
     'ToDoList1',
+    'frontend',
 
     #third party apps
     'rest_framework',
